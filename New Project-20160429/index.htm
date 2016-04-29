@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>MPS</title> 
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+   <link rel="stylesheet" type="text/css" href="css/custom-login.css"/>
+ </head>
+<body>
+	<div class="wrapper" ng-app="app">
+	 <form class="form-signin" ng-controller="loginController">
+	 <h2 class="form-signin-heading">Please login</h2>
+	  <div class="form-control"><input type="text" placeholder="Email Address" required />{{mailid}}</div>
+	  <div class="form-control"><input type="password" required placeholder="password"/></div>
+	  <button class="btn btn-lg btn-primary btn-block login-btn" type="submit">Login</button>   
+	 </form>
+	 </div>
+	 <script src="js/jquery-1.12.3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="js/app-init.js"></script>
+</body>
